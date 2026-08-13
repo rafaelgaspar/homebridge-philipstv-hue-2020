@@ -26,14 +26,14 @@ and add a `PhilipsTV` accessory to your Homebridge `config.json` — see the REA
 
 ## Workflow
 
-1. Fork the repo and branch off `master`.
+1. Fork the repo and branch off `main`.
 2. Keep PRs scoped to one logical change — avoid bundling unrelated fixes/features.
 3. Run `node --check index.js` before opening the PR (there's no other automated test yet). CI runs the same check and must be green before merge.
 4. Update the README/config.schema.json alongside any user-facing change (new config option, new supported TV model/year, etc.).
 
 ## Releasing (maintainers)
 
-Releases are cut by pushing a `vX.Y.Z` tag from `master` (matching `package.json`'s `version`). That triggers `.github/workflows/publish-to-npm.yaml`, which publishes to npm.
+Releases are cut by pushing a `vX.Y.Z` tag from `main` (matching `package.json`'s `version`). That triggers `.github/workflows/publish-to-npm.yaml`, which publishes to npm.
 
 ### npm publishing auth
 

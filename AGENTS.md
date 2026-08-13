@@ -37,7 +37,7 @@ To exercise a change against a real TV, symlink this repo into a local Homebridg
 
 ## Release process
 
-Maintainer-only: push a `vX.Y.Z` tag from `master` (matching `package.json`'s `version`) to trigger `.github/workflows/publish-to-npm.yaml`, which publishes to npm via Trusted Publishing (GitHub Actions OIDC, no stored token). See CONTRIBUTING.md.
+Maintainer-only: push a `vX.Y.Z` tag from `main` (matching `package.json`'s `version`) to trigger `.github/workflows/publish-to-npm.yaml`, which publishes to npm via Trusted Publishing (GitHub Actions OIDC, no stored token). See CONTRIBUTING.md.
 
 ## Commit/PR conventions
 
