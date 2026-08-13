@@ -1,7 +1,7 @@
 {
   "name": "homebridge-philipstv-hue-2020",
   "displayName": "Philips TV (Ambilight+Hue)",
-  "version": "0.3.1",
+  "version": "0.6.0",
   "description": "Homebridge module for Philips TV models 2020",
   "main": "index.js",
   "files": [
