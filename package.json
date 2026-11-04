@@ -25,7 +25,7 @@
     "supports-hap"
   ],
   "engines": {
-    "node": "^22.10.0 || ^24.0.0",
+    "node": "^22.10.0 || ^24.0.0 || ^26.0.0",
     "homebridge": "^1.8.0 || ^2.0.0"
   },
   "author": "rafaelgaspar",
