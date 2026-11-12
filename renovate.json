@@ -8,7 +8,9 @@
     ":label(renovate)"
   ],
   "timezone": "UTC",
-  "dependencyDashboardTitle": "Renovate Dependency Dashboard - homebridge-philipstv-hue-2020",
+  "dependencyDashboard": {
+    "title": "Renovate Dependency Dashboard - homebridge-philipstv-hue-2020"
+  },
   "lockFileMaintenance": {
     "enabled": true,
     "schedule": ["before 4am on monday"]
